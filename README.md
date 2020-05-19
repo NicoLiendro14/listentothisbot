@@ -1,6 +1,6 @@
 # Listen To This BOT
 
-A bot that gets music posted in [r/listentothis](https://www.reddit.com/r/listentothis/) and upload these in many playlists by genre on YouTube.
+A bot that gets music posted in [r/listentothis](https://www.reddit.com/r/listentothis/) and upload these in many playlists by date on YouTube.
 
 ## Getting Started
 
@@ -23,6 +23,8 @@ pip install praw
 ```
 
 Get the `client_id` and `client_secret` [here](https://github.com/reddit-archive/reddit/wiki/OAuth2)
+
+And put them in `reddit_client.json`
 
 The Google APIs Client Library for Python:
 
@@ -54,11 +56,6 @@ python3 main.py
 - [PRAW](https://praw.readthedocs.io/en/v3.1.0/index.html) A Python Reddit API Wrapper.
 - [API YouTube v3](https://developers.google.com/youtube/v3/getting-started) - Used to upload the playlist.
 
-## Demo
-
-A simple test with only a playlist.
-
-![](bot-reddit.gif)
 
 ## Authors
 
